@@ -1,0 +1,51 @@
+{
+  //单集ID，应该和RSS item guid保持一样
+  episodeId: {
+    //章节信息
+    chapters: [
+      {
+        start: 101.5, //开始时间，秒
+        title: "跟夏天才告别，转眼满地落叶" //章节标题
+      },
+      {
+        start: 205,
+        title: "第二章"
+      }
+    ],
+    //关键时间信息
+    poi: [
+      {
+        start: 571, //开始时间，秒
+        title: "纽约人行道脚手架品鉴", //标题
+        content: "纽约街道的直观感受", //详细介绍文字
+        //图片URL
+        image: 'https://images.squarespace-cdn.com/content/v1/604459241f30ca56280a689b/1629984366086-S53KMGQNF8YWTR2EMYTH/02_General_01.jpg?format=2500w',
+      }
+    ],
+    //精华片段信息
+    highlights: [
+      {
+        start: 2527, //开始时间，秒
+        end: 2587, //结束时间，秒
+        title: "大锅饭怎么吃好？",  //片段标题
+        content: "军训的时候饭基本必定是吃不饱的，那如果想多吃饭就得有技巧了#军训回忆", //片段描述
+        //片段题图URL
+        image: "https://image.gcores.com/a204807b-de75-444d-807c-f644d1e634d4.jpeg?x-oss-process=image/resize,limit_1,m_lfit,w_1000,h_1000/quality,q_90"
+      }
+    ],
+    //音乐信息
+    music: [
+      {
+        start: 1510, //开始时间，秒
+        end: 1722.06, //结束时间，秒
+        title: "日落大道",  //歌曲名称
+        artist: "梁博", //艺术家名字
+        album: "迷藏",  //专辑名称
+        image: "https://i.scdn.co/image/ab67616d0000b2739731c8e1113f621dae2ce1fb",  //专辑图URL
+        gain: -3, //音量dB
+        offset: 10, //相对音乐开始时间, 秒
+        bgm: false, //是否为背景音乐
+      },
+    ]
+  }
+}
