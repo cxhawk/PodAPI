@@ -19,4 +19,4 @@
 
 # Spec
 只需要在RSS中引入一个外部文件
-<podapi:metadata href='https://host.podapi.xyz/shapodcast/metadata.json5' type='application/json5'/>
+·<podapi:metadata href='https://host.podapi.xyz/shapodcast/metadata.json5' type='application/json5'/>·
